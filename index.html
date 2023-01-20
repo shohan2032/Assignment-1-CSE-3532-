@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-01</title>
+    <link rel="stylesheet" href="./style/main.css"/>
+    <!-- fontawesome kit code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/> 
+    <link rel="stylesheet" href="./output/tailwind.css"/> 
+</head>
+<body>
+    <!-- header section start here-->
+    <header class="container" style="padding: 15px;">
+        <div class="box">
+            <h1 class="header_style">Assignment One</h1>
+        </div>
+    </header>
+    <!-- header section end here-->
+
+    <!-- main section start here-->
+    <main>
+        <!-- code for task one start here -->
+        <section class="task container">
+            <h2 class="title"><em>Task One:Fancy Buttons</em></h2>
+            <div class="btn" style="margin: 20px;">
+                <!-- must do button -->
+                <div class="must_do_button single_btn">
+                    <div style="padding:30px;">
+                        <button class="must_do_btn_style">LOG-IN <i class="fa-solid fa-right-to-bracket"></i></button>
+                    </div>
+                    <div style="padding:30px;">
+                        <button class="must_do_btn_style">ADD TO CART<i class="fa-solid fa-cart-shopping"></i></i></button>
+                    </div>
+                    <div style="padding:30px;">
+                        <button class="must_do_btn_style">DOWNLOAD<i class="fa-solid fa-download"></i></button>
+                    </div>
+                    <div style="padding:30px;">
+                        <button class="must_do_btn_style">COMMENT<i class="fa-solid fa-comment-sms"></i></button>
+                    </div>
+                </div>
+                <!-- otional button -->
+                <div class="must_do_button single_btn">
+                    <div style="padding:30px;">
+                        <button class="optional_button" style="display: flex;">
+                            <button class="inner_button">LOG-IN</button>
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </button>
+                    </div>
+                    <div style="padding:30px;">
+                        <button class="optional_button">ADD TO CART<i class="fa-solid fa-cart-shopping"></i></i></button>
+                    </div>
+                    <div style="padding:30px;">
+                        <button class="optional_button">DOWNLOAD<i class="fa-solid fa-download"></i></button>
+                    </div>
+                    <div style="padding:30px;">
+                        <button class="optional_button">COMMENT<i class="fa-solid fa-comment-sms"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- code for task one end here -->
+
+
+        <!-- code for task two start here -->
+        <section class="task container"> 
+            <h2 class="title"><em>Task Two:Card Groups</em></h2>
+            <div class="card single_btn" style="margin: 20px;">
+                <div class="single_btn single_card">
+                    <!-- card one -->
+                    <div class="card-top">
+                        <img
+                            style="width: 100%"
+                            src="./assets/images/Diamonds_Homepage_Thumbnail.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="card-body">
+                        <h3>ROLEX</h3>
+                        <p style="color:grey ;">Garnier Pure Active Micellae<br>
+                             Cedhfs Water,125ml <br><br>
+                                    $60<br><br>
+                        </p>
+                        <i class="fa-regular fa-star" style="color:yellowgreen ;"></i>
+                        <i class="fa-regular fa-star" style="color:yellowgreen ;"></i>
+                        <i class="fa-regular fa-star" style="color:yellowgreen ;"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <button class="card-footer" style="background-color:rgb(58, 54, 55);">ADD TO CART</button>   
+                </div>
+                <!-- card two -->
+                <div class="single_btn single_card">
+                    <div class="card-top">
+                        <img
+                            style="width:86%"
+                            src="./assets/images/shoe.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="card-body">
+                        <h3>PUMA</h3>
+                        <p style="color:grey ;">Garnier Pure Active Micellae<br>
+                             Cedhfs Water,125ml <br><br>
+                                    $70<br><br>
+                        </p>
+                        <i class="fa-regular fa-star" style="color:yellowgreen ;"></i>
+                        <i class="fa-regular fa-star" style="color:yellowgreen ;"></i>
+                        <i class="fa-regular fa-star" style="color:yellowgreen ;"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <button class="card-footer" style="background-color:red;">ADD TO CART</button>
+                </div>
+                <!-- card three -->
+                <div class="single_btn single_card">
+                    <div class="card-top">
+                        <img
+                            style="width: 95%"
+                            src="./assets/images/tmain.webp"
+                            alt=""
+                        />
+                    </div>
+                    <div class="card-body">
+                        <h3>T-SHIRT</h3>
+                        <p style="color:grey ;">Garnier Pure Active Micellae<br>
+                             Cedhfs Water,125ml <br><br>
+                                    $50<br><br>
+                        </p>
+                        <i class="fa-regular fa-star" style="color:yellowgreen ;"></i>
+                        <i class="fa-regular fa-star" style="color:yellowgreen ;"></i>
+                        <i class="fa-regular fa-star" style="color:yellowgreen ;"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <button class="card-footer" style="background-color:blue;">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+        <!-- code for task two end here -->
+
+        <!-- example of tailwindcss -->
+        <!-- <div class="w-32 bg-gray-900 m-12 text-white">
+            Hello
+        </div> -->
+
+        <!-- code for task three start here -->
+            <section class="task container">
+                <h2 class="title"><em>Task Three:Simple Form</em></h2>
+                <div class="form single_btn">
+                    <!-- form one -->
+                    <div class="single_btn" style="background-image:url(./assets/images/bg.jpg)">
+                       <div class="form_inner">
+                            <img class="form1"
+                                src="./assets/images/login.png"
+                            />
+                            <div style="text-align:center;">
+                                <form style="margin: 20px;">
+                                    <label for="username" style="color:#fff">Username:</label><br>
+                                    <input type="text" name="username"><br>
+                                    <label for="password" style="color:#fff">Password:</label><br>
+                                    <input type="password" name="password"><br>
+                                    <label for="login" style="color:#fff"></label><br>
+                                    <input style="background-color:#fff ;" type="submit" value="Login">
+                                </form>
+                            </div>
+                       </div>
+                    </div>
+
+                    <!-- form two -->
+                    <div class="single_btn" style="background-image:url(./assets/images/bg.jpg)">
+                        <div style="margin: 20px;">
+                            <form>
+                                <label for="name" style="color:#fff">Name:</label><br>
+                                <input style="width:100%;" type="text" name="name"><br>
+                                <label for="username" style="color:#fff">Username:</label><br>
+                                <input style="width:100%;" type="text" name="username"><br>
+                                <label for="email" style="color:#fff">Email:</label><br>
+                                <input style="width:100%;" type="email" name="email"><br>
+                                <label for="password" style="color:#fff">Password:</label><br>
+                                <input style="width:100%;" type="password" name="email"><br>
+                                <label for="confirm_password" style="color:#fff">Password:</label><br>
+                                <input style="width:100%;" type="password" name="confirm_password"><br>
+                                <label for="messages" style="color:#fff">Message:</label><br>
+                                <input style="width:100%;" type="message" name="messages"><br>
+                                <label for="login"></label><br>
+                                <input style="background-color:#fff ;" type="submit" value="Send">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- code for task three end here -->
+
+        <!-- code for task four start here -->
+            <section class="task container">
+                <h2 class="title"><em>Task Four:Simple Calendar</em></h2>
+                <div class="single_btn" style="margin:100px ;">
+                    <div class="box2">
+                        <h1 style="text-align:center;">November 2017</h1>
+                    </div>
+                    <div class="cal">
+                        <p class="day">S</p>
+                        <p class="day">M</p>
+                        <p class="day">T</p>
+                        <p class="day">W</p>
+                        <p class="day">T</p>
+                        <p class="day">F</p>
+                        <p class="day">S</p>
+
+                        <p class="date" style="background-color:rgb(188, 243, 243);">29</p>
+                        <p class="date" style="background-color:rgb(188, 243, 243);">30</p>
+                        <p class="date" style="background-color:rgb(188, 243, 243);">31</p>
+                        <p class="date">1</p>
+                        <p class="date">2</p>
+                        <p class="date">3</p>
+                        <p class="date">4</p>
+
+                        <p class="date">5</p>
+                        <p class="date">6</p>
+                        <p class="date">7</p>
+                        <p class="date">8</p>
+                        <p class="date">9</p>
+                        <p class="date">10</p>
+                        <p class="date">11</p>
+
+                        <p class="date">12</p>
+                        <p class="date">13</p>
+                        <p class="date">14</p>
+                        <p class="date">15</p>
+                        <p class="date">16</p>
+                        <p class="date">17</p>
+                        <p class="date">18</p>
+
+                        <p class="date">19</p>
+                        <p class="date">20</p>
+                        <p class="date">21</p>
+                        <p class="date">22</p>
+                        <p class="date">23</p>
+                        <p class="date">24</p>
+                        <p class="date">25</p>
+
+                        <p class="date">26</p>
+                        <p class="date">27</p>
+                        <p class="date">28</p>
+                        <p class="date">29</p>
+                        <p class="date">30</p>
+                        <p class="date" style="background-color:rgb(188, 243, 243);">1</p>
+                        <p class="date" style="background-color:rgb(188, 243, 243);">2</p>
+                    </div>
+                </div>
+            </section>
+        <!-- code for task four end here -->
+
+        <!-- code for task five start here -->
+        <section class="task container">
+            <h2 class="title"><em>Task Five:Simple Flexbox</em></h2>
+            <div class="main_box">
+                <!-- box1 -->
+                <div class="box1_in_main_box">
+                    <div class="inner_box">
+                    </div>
+                    <div class="inner_box">
+                    </div>
+                    <div class="inner_box">
+                    </div>
+                </div>
+                <!-- box2 -->
+                <div class="box2_in_main_box">
+                    <div class="inner_box">
+                    </div>
+                    <div class="inner_box">
+                    </div>
+                    <div class="inner_box">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- code for task five end here -->
+
+        <!-- code for task five start here -->
+        <section class="task container">
+            <h2 class="title"><em>Task Six:Simple Banner Section</em></h2>
+            <div class="back_design">
+                <div class="inner_content">
+                    <div class="style_for_text">
+                        <p>
+                            <span style="color:cadetblue;">15,0000 Sales</span><br>
+                            <span style="color:blue">Dream For Big<br>Think Different<br>Do Great</span>
+                            <button class="must_do_btn_style" style="width: 100%;">Purchage Now</button>
+                        </p>
+                    </div>
+                    <div>
+                        <img
+                            class="inner_img_style"
+                            src="./assets/images/iiuc.png"
+                            width="100%"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- code for task five end here -->
+
+        <!-- code for task five start here -->
+        <section class="task container">
+            <h2 class="title"><em>Task Seven:Simple Footer Section</em></h2>
+            <div class="single_btn" style="margin: 20px;">
+                <div class="inner">
+                    <div style="background-color:rgb(7, 7, 32);">
+                        <div class="footer">
+                            <!-- company name -->
+                            <div class="footer_content">
+                                <h1>WE ARE IIUC_UNKNOWN_3!</h1>
+                            </div>
+                            <!-- contact section -->
+                            <div class="footer_content">
+                                <h1>CONTACT</h1>
+                                <div class="footer_text">
+                                    <p style="font-weight:lighter ;">ADDRESS&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    <p style="font-weight:lighter ;">Teri Bazar,Katawali(4000),Chattogram</p>
+                                </div>
+                                <div class="footer_box">
+                                </div>
+                                <div class="footer_text">
+                                    <p style="font-weight:lighter ;">EMAIL&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    <p style="font-weight:lighter ;">mohammad.shohan2032@gmail.com</p>
+                                </div>
+                                <div class="footer_box">
+                                </div>
+                                <div class="footer_text">
+                                    <p style="font-weight:lighter ;">SOCIAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    <ul class="footer_text">
+                                        <li class="i_am_tired"><a href="https://www.linkedin.com/in/md-shohan-competitive-programmer-cse-iiuc-b7214220a/" target="_blank">Linkedin&nbsp;&nbsp;&nbsp;</a></li>
+                                        <li class="i_am_tired"><a href="https://www.facebook.com/profile.php?id=100010368248738" target="_blank">Facebook&nbsp;&nbsp;&nbsp;</a></li>
+                                        <li class="i_am_tired"><a href="https://www.instagram.com/shohan.mohammad/?hl=en" target="_blank">Instagram&nbsp;&nbsp;&nbsp;</a></li>
+                                        <li class="i_am_tired"><a href="https://github.com/shohan2032" target="_blank">GitHub</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer_box">
+                                </div>
+                                <!-- <div class="copy_right">
+                                    <i class="fa-solid fa-copyright"></i>
+                                </div> -->
+                            </div>
+                            <!-- about us section -->
+                            <div class="footer_content">
+                                <h1>ABOUT US</h1>
+                                <p style="font-weight:lighter ;">Your Satisfaction Our Obligation!</p>
+                            </div>
+                        </div>
+                        <div class="copy_right">
+                            <i class="fa-regular fa-copyright"></i>
+                            <p>&nbsp;&nbsp;&nbsp;Md. Shohan.All right reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- code for task five end here -->
+    </main>
+</body>
+</html>
